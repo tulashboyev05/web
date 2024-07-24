@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<style>
+     .nav-link:hover{
+        background-color: red;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+    }
+   
+    a, .nav-link{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    .card img:hover{
+        overflow:hidden;
+        display: inline-block;
+        transform: scale(1.1);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .card img{
+        overflow:hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+      
+    }
+    .kol{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        
+    }
+
+</style>
+<body>
+    <div class="container-fluid"><br>
+        <div class="container bg-warning">
+            <nav class="navbar navbar-expand-lg  ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              
+        </div><br>
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel container">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://www.lays.com/sites/lays.com/files/2024-07/LAY%20A-1%20BannerLeaguesCup_2024_%281920x715%29%20Lays%20copia.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.lays.com/sites/lays.com/files/2024-03/1920x715%20%281%29%20%281%29.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.lays.com/sites/lays.com/files/2024-05/24%20Sweet%20Spicy%20honey%20Desktop%201970x715%20%281%29%20copia.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div><br>
+        <div id="npm" class="container w-100">
+            <div class="card-group">
+                <div class="card bg-warning">
+                  <img src="https://www.lays.com/sites/lays.com/files/2019-09/CheddarSC_0.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h1 class="card-title">LAYS</h1>
+                 <button type="button" class="btn btn-danger">View all</button>
+                    
+                  </div>
+                </div>
+                <div class="card bg-info">
+                  <img src="https://www.lays.com/sites/lays.com/files/2019-09/Lightly%20Salted%20Classic.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <button type="button" class="btn btn-danger">View all</button> 
+                   
+                  </div>
+                </div>
+                <div class="card bg-primary">
+                    <div class="kol">
+                        <img src="https://www.lays.com/sites/lays.com/files/2021-07/HERO_Smooth%20Ranch%20Dip.png" class="card-img-top" alt="...">
+                    </div>
+                
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <button type="button" class="btn btn-danger">View all</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="btn-group-vertical" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-outline-primary">Chap</button>
+        <button type="button" class="btn btn-primary">O'rta</button>
+        <button type="button" class="btn btn-primary">O'ng</button>
+        
+    </div>
+
+    <h1 class="btn btn-danger">Salom</h1>
+</body>
+</html>
